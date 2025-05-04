@@ -117,15 +117,15 @@ getgenv().ExunysDeveloperAimbot = {
 		Enabled = true,
 		Visible = true,
 
-		Radius = 180,
+		Radius = 360,
 		NumSides = 60,
 
 		Thickness = 1,
 		Transparency = 1,
 		Filled = false,
 
-		RainbowColor = false,
-		RainbowOutlineColor = false,
+		RainbowColor = true,
+		RainbowOutlineColor = true,
 		Color = Color3fromRGB(255, 255, 255),
 		OutlineColor = Color3fromRGB(0, 0, 0),
 		LockedColor = Color3fromRGB(255, 150, 150)
