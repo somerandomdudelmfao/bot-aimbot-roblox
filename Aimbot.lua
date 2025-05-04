@@ -96,9 +96,9 @@ getgenv().ExunysDeveloperAimbot = {
 	Settings = {
 		Enabled = true,
 
-		TeamCheck = false,
+		TeamCheck = true,
 		AliveCheck = true,
-		WallCheck = false,
+		WallCheck = true,
 
 		OffsetToMoveDirection = false,
 		OffsetIncrement = 15,
@@ -110,14 +110,14 @@ getgenv().ExunysDeveloperAimbot = {
 		LockPart = "Head", -- Body part to lock on
 
 		TriggerKey = Enum.UserInputType.MouseButton2,
-		Toggle = false
+		Toggle = true
 	},
 
 	FOVSettings = {
 		Enabled = true,
 		Visible = true,
 
-		Radius = 90,
+		Radius = 180,
 		NumSides = 60,
 
 		Thickness = 1,
